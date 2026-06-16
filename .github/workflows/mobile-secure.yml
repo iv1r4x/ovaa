@@ -54,5 +54,4 @@ jobs:
           COMMENTS: "This is a pre-production build."
           RELEASE_ID: ${{ vars.GITHUB_RUN_NUMBER }}
           EXTERNAL_ID: "App_12230045"
-          WARN_ON_SEVERITY: "MEDIUM"  # Optional: Warn on medium severity vulnerabilities
           POLLING_TIMEOUT: 300  # Optional: Stop polling the scan result after the specified time
